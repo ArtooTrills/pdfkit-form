@@ -1,0 +1,37 @@
+{
+  "name": "pdfkit-form",
+  "version": "0.0.0",
+  "description": "Wrapper over pdfkit to print beautiful forms",
+  "license": "MIT",
+  "repository": "artootrills/pdfkit-form",
+  "author": {
+    "name": "Dilip",
+    "email": "dilip@artoo.in",
+    "url": "artootrills.github.io/pdfkit-form"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "pdfkit",
+    "pdf",
+    "forms"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "xo": "^0.9.0"
+  },
+  "xo": {
+    "envs": [
+      "node",
+      "mocha"
+    ]
+  }
+}
