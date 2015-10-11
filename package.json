@@ -1,6 +1,6 @@
 {
   "name": "pdfkit-form",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Wrapper over pdfkit to print beautiful forms",
   "license": "MIT",
   "repository": "artootrills/pdfkit-form",
