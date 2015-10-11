@@ -1,7 +1,4 @@
-# pdfkit-form [![Build Status](https://travis-ci.org/kushdilip/pdfkit-form.svg?branch=master)](https://travis-ci.org/kushdilip/pdfkit-form)
-
-> My cool module
-
+# pdfkit-form 
 
 ## Install
 
@@ -15,31 +12,25 @@ $ npm install --save pdfkit-form
 ```js
 var pdfkitForm = require('pdfkit-form');
 
-pdfkitForm('unicorns');
-//=> 'unicorns & rainbows'
+var options = {
+  size:"A4",
+  margins:{top:20,left:25,bottom:20,right:25},
+  bufferPages: true,
+}
+
+var pdfkitForm =  pdfkitForm(options);
+
+pdf.text('hello');
+...
 ```
 
 
 ## API
 
-### pdfkitForm(input, [options])
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
+### pdfkitForm([options])
 
 #### options
 
-##### foo
-
-Type: `boolean`  
-Default: `false`
-
-Lorem ipsum.
-
-
 ## License
 
-MIT © [Dilip](http://artootrills.github.io/pdfkit-form)
+MIT © [Artoo](http://artootrills.github.io/pdfkit-form)
