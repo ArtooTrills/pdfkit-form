@@ -1,4 +1,6 @@
 # pdfkit-form 
+------
+[![npm version](https://badge.fury.io/js/pdfkit-form.svg)](https://badge.fury.io/js/pdfkit-form)
 
 ## Install
 
