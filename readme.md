@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/ArtooTrills/pdfkit-form.png?label=ready&title=Ready)](https://waffle.io/ArtooTrills/pdfkit-form)
 # pdfkit-form 
 ------
 [![npm version](https://badge.fury.io/js/pdfkit-form.svg)](https://badge.fury.io/js/pdfkit-form) [![Code Climate](https://codeclimate.com/github/ArtooTrills/pdfkit-form/badges/gpa.svg)](https://codeclimate.com/github/ArtooTrills/pdfkit-form)
